@@ -15,5 +15,5 @@ let
 in
 {
   "secret1.age".publicKeys = systems ++ users;
-  "minioS3.age".publicKeys = systems ++ users;
+  "./minioS3/minioS3.age".publicKeys = systems ++ users;
 }
