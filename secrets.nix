@@ -17,4 +17,5 @@ in
   "./minioS3/minioS3.age".publicKeys = keys;
   # Keys from here will have nixos and wellsjaha
   "./linkding/linkding.age".publicKeys = keys;
+  "./freshrss/freshrss.age".publicKeys = keys;
 }
