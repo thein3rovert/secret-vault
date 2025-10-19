@@ -18,4 +18,5 @@ in
   # Keys from here will have nixos and wellsjaha
   "./linkding/linkding.age".publicKeys = keys;
   "./freshrss/freshrss.age".publicKeys = keys;
+  "./tailscale/tailscale-auth.age".publicKeys = keys;
 }
