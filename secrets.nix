@@ -19,4 +19,5 @@ in
   "./linkding/linkding.age".publicKeys = keys;
   "./freshrss/freshrss.age".publicKeys = keys;
   "./tailscale/tailscale-auth.age".publicKeys = keys;
+  "./audiobookshelf/audiobookshelf-ts.age".publicKeys = keys;
 }
