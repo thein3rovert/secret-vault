@@ -6,6 +6,7 @@ let
   users = [
     "thein3rovert_nixos"
     "thein3rovert_wellsjaha"
+    "thein3rovert_bellamy"
   ];
 
   systemKeys = builtins.map (host: builtins.readFile ./publicKeys/root_${host}.pub) hosts;
