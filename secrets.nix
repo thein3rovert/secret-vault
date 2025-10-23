@@ -20,4 +20,5 @@ in
   "./freshrss/freshrss.age".publicKeys = keys;
   "./tailscale/tailscale-auth.age".publicKeys = keys;
   "./audiobookshelf/audiobookshelf-ts.age".publicKeys = keys;
+  "./godaddy/godaddy.age".publicKeys = keys;
 }
