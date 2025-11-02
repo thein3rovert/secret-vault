@@ -22,4 +22,5 @@ in
   "./tailscale/tailscale-auth.age".publicKeys = keys;
   "./audiobookshelf/audiobookshelf-ts.age".publicKeys = keys;
   "./godaddy/godaddy.age".publicKeys = keys;
+  "./glance/glance.age".publicKeys = keys;
 }
