@@ -23,4 +23,5 @@ in
   "./audiobookshelf/audiobookshelf-ts.age".publicKeys = keys;
   "./godaddy/godaddy.age".publicKeys = keys;
   "./glance/glance.age".publicKeys = keys;
+  "./ragenix/tagenixTest.age".publicKeys = keys;
 }

@@ -6,8 +6,10 @@
 
     agenix = {
       inputs.nixpkgs.follows = "nixpkgs";
-      url = "github:ryantm/agenix";
+      # url = "github:ryantm/agenix";
+      url = "github:yaxitech/ragenix";
     };
+
   };
 
   outputs =
