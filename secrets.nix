@@ -24,4 +24,5 @@ in
   "./godaddy/godaddy.age".publicKeys = keys;
   "./glance/glance.age".publicKeys = keys;
   "./ragenix/tagenixTest.age".publicKeys = keys;
+  "./n8n/n8n.age".publicKeys = keys;
 }
