@@ -16,6 +16,10 @@ in
 {
   "secret1.age".publicKeys = keys;
   "./minioS3/minioS3.age".publicKeys = keys;
+  # Initial solution for root enviroment variable (Terraform)
+  "./minioS3/minioS3_id.age".publicKeys = keys;
+  "./minioS3/minioS3_secret.age".publicKeys = keys;
+
   # Keys from here will have nixos and wellsjaha
   "./linkding/linkding.age".publicKeys = keys;
   "./freshrss/freshrss.age".publicKeys = keys;
