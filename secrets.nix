@@ -31,4 +31,6 @@ in
   "./glance/glance.age".publicKeys = keys;
   "./ragenix/tagenixTest.age".publicKeys = keys;
   "./n8n/n8n.age".publicKeys = keys;
+  "./aws/accessKey/thein3rovert.age".publicKeys = keys;
+  "./aws/accessSecret/thein3rovert_secret.age".publicKeys = keys;
 }
