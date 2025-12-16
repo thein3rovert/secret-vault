@@ -33,4 +33,6 @@ in
   "./n8n/n8n.age".publicKeys = keys;
   "./aws/accessKey/thein3rovert.age".publicKeys = keys;
   "./aws/accessSecret/thein3rovert_secret.age".publicKeys = keys;
+  "./garage/admin_token.age".publicKeys = keys;
+  "./garage/rpc_secret.age".publicKeys = keys;
 }
