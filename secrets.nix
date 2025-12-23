@@ -35,5 +35,9 @@ in
   "./aws/accessSecret/thein3rovert_secret.age".publicKeys = keys;
   "./garage/admin_token.age".publicKeys = keys;
   "./garage/rpc_secret.age".publicKeys = keys;
+
+  # BELLAMY
   "./garage/garage-env.age".publicKeys = keys;
+  "./minio-client/accessKey/iv3-garage-id.age".publicKeys = keys;
+  "./minio-client/accessSecret/iv3-garage-secret.age".publicKeys = keys;
 }
