@@ -41,7 +41,7 @@ in
   "./garage/garage-webui-env.age".publicKeys = keys;
   "./minio-client/accessKey/iv3-garage-id.age".publicKeys = keys;
   "./minio-client/accessSecret/iv3-garage-secret.age".publicKeys = keys;
-
+  "./forgejo/forgejo-db.age".publicKeys = keys;
   # EMILY
   "./proxmox/proxmox_api_secrets.age".publicKeys = keys;
 }
