@@ -48,5 +48,5 @@ in
 
   # RUNNER
   "./tailscale/runner/tailscale-auth.age".publicKeys = keys;
-
+  "./forgejo/runner/forgejo-runner-secret.age".publicKeys = keys;
 }
