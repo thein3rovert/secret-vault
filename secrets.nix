@@ -47,6 +47,7 @@ in
   "./forgejo/forgejo-db.age".publicKeys = keys;
   # EMILY
   "./proxmox/proxmox_api_secrets.age".publicKeys = keys;
+  "./fileshare/fileshare.age".publicKeys = keys;
 
   # RUNNER
   "./tailscale/runner/tailscale-auth.age".publicKeys = keys;
