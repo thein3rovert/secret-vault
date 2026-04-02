@@ -20,6 +20,7 @@ in
 {
   "secret1.age".publicKeys = keys;
   "./minioS3/minioS3.age".publicKeys = keys;
+
   # Initial solution for root enviroment variable (Terraform)
   "./minioS3/minioS3_id.age".publicKeys = keys;
   "./minioS3/minioS3_secret.age".publicKeys = keys;
@@ -45,9 +46,11 @@ in
   "./minio-client/accessKey/iv3-garage-id.age".publicKeys = keys;
   "./minio-client/accessSecret/iv3-garage-secret.age".publicKeys = keys;
   "./forgejo/forgejo-db.age".publicKeys = keys;
+
   # EMILY
   "./proxmox/proxmox_api_secrets.age".publicKeys = keys;
   "./fileshare/fileshare.age".publicKeys = keys;
+  "./kestra/kestra.age".publicKeys = keys;
 
   # RUNNER
   "./tailscale/runner/tailscale-auth.age".publicKeys = keys;
