@@ -51,6 +51,7 @@ in
   "./proxmox/proxmox_api_secrets.age".publicKeys = keys;
   "./fileshare/fileshare.age".publicKeys = keys;
   "./kestra/kestra.age".publicKeys = keys;
+  "./kaneo/kaneo-auth.age".publicKeys = keys;
   "./syncthing/cert-file.age".publicKeys = keys;
   "./syncthing/key-file.age".publicKeys = keys;
 
