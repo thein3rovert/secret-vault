@@ -11,6 +11,7 @@ let
     "thein3rovert_finn"
     "thein3rovert_marcus"
     "thein3rovert_runner"
+    "thein3rovert_roan"
   ];
 
   systemKeys = builtins.map (host: builtins.readFile ./publicKeys/root_${host}.pub) hosts;
