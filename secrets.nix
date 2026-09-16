@@ -12,6 +12,7 @@ let
     "thein3rovert_marcus"
     "thein3rovert_runner"
     "thein3rovert_roan"
+    "thein3rovert_zeke"
   ];
 
   systemKeys = builtins.map (host: builtins.readFile ./publicKeys/root_${host}.pub) hosts;
@@ -48,6 +49,9 @@ in
   "./minio-client/accessKey/iv3-garage-id.age".publicKeys = keys;
   "./minio-client/accessSecret/iv3-garage-secret.age".publicKeys = keys;
   "./forgejo/forgejo-db.age".publicKeys = keys;
+
+  # ZEKE
+  "./technitium/technitium-env.age".publicKeys = keys;
 
   # EMILY
   "./proxmox/proxmox_api_secrets.age".publicKeys = keys;
