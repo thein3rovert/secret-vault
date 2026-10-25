@@ -49,6 +49,7 @@ in
   "./minio-client/accessKey/iv3-garage-id.age".publicKeys = keys;
   "./minio-client/accessSecret/iv3-garage-secret.age".publicKeys = keys;
   "./forgejo/forgejo-db.age".publicKeys = keys;
+  "./cloudflare/cloudflare.age".publicKeys = keys;
 
   # ZEKE
   "./technitium/technitium-env.age".publicKeys = keys;
